@@ -1,0 +1,63 @@
+.gradient-background {
+    background: linear-gradient(300deg, #CADEFC, #C3BEF0, #DEFCF9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #wellbeing-workshop{
+    border-radius: 20%;
+  } 
+  .nav-link.home{
+    background-color: #CADEFC;
+    color: black;
+    border: 1px solid white;
+  }
+  .nav-link{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+  }
+  .nav-link.other{
+    border: 1px solid #B5C0D0;
+  }
+
+#profile{
+  border-radius: 100%;
+}
+.card-text{
+  background-color: white;
+  border-radius: 70%;
+  color: black;
+  padding: 10px;
+}
+#faqs > h1{
+  text-align: center;
+}
+.question{
+  background-color: #CADEFC90;
+}
+.flex-container.contact-me{
+  display: flex;
+  justify-content: center;
+}
+.contact-me > .flex-item{
+  margin: 20px;
+}
+.flex-item > img{
+  height: 80vh
+}
+.contact-me > .info{
+  padding: 20px;
+  background-color: ;
+}
