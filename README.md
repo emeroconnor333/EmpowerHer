@@ -1,2 +1,2 @@
 # EmpowerHer
-Website for EmpowerHer, a wellness workshop.
+The website for EmpowerHer, a wellness workshop.
